@@ -1,0 +1,152 @@
+
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <title>Zaujímavé zvieratá</title>
+
+    <style>
+        body {
+            background-color: #f3f6f9;
+            font-family: Arial;
+            margin: 24px;
+        }
+
+        nav {
+            background-color: #203e5c;
+            padding: 12px 24px;
+            border-radius: 10px;
+           
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-right: 30px;
+            font-size: 20px;
+        }
+
+        h1 {
+            color: #203e5c;
+            font-size: 38px;
+        }
+
+        #galeria {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .karta {
+            background-color: white;
+            border: 3px solid #cbd5df;
+            border-radius: 13px;
+            padding: 25px;
+            width: 250px;
+            text-align: center;
+        }
+
+        .karta img {
+            width: 245px;
+            height: 165px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .karta h2 {
+            color: #203e5c;
+            font-size: 29px;
+        }
+
+        .karta p {
+            font-size: 20px;
+        }
+
+        #fakty {
+            background-color: white;
+            border: 1px solid #cbd5df;
+            border-radius: 13px;
+            padding: 15px 30px;
+            margin-top: 25px;
+            font-size: 25px;
+        }
+
+        ul {
+            background-color: white;
+            border: 1px solid #cbd5df;
+            border-radius: 13px;
+            padding: 35px 40px 35px 80px;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <a href="../index.html">Domov</a>
+        <a href="#galeria">Galéria</a>
+        <a href="#fakty">Fakty</a>
+    </nav>
+
+    <h1>Zaujímavé zvieratá</h1>
+
+    <p style="font-size:20px;">
+        Malá galéria zvierat, z rôznych kútov sveta.
+        
+    </p>
+
+    <div id="galeria">
+
+        <div class="karta">
+            <img src="obrazky/liska.jpg" width="200">
+            <h2>Líška</h2>
+            <p>Šelma s hustým chvostom, ktorú stretneš aj na Orave.</p>
+        </div>
+
+        <div class="karta">
+            <img src="obrazky/tucniak.jpg" width="200">
+            <h2>Tučniak</h2>
+            <p>Vták, ktorý nelieta, ale výborne pláva v studenom mori.</p>
+        </div>
+
+        <div class="karta">
+            <img src="obrazky/slon.jpg" width="200">
+            <h2>Slon</h2>
+            <p>Najväčšie suchozemské zviera s dlhým chobotom.</p>
+        </div>
+
+        <div class="karta">
+            <img src="obrazky/panda.jpg" width="200">
+            <h2>Panda</h2>
+            <p>Medveď, ktorý sa živí hlavne bambusom.</p>
+        </div>
+
+        <div class="karta">
+            <img src="obrazky/sova.jpg" width="200">
+            <h2>Sova</h2>
+            <p>Nočný lovec s tichým letom a veľkými očami.</p>
+        </div>
+
+        <div class="karta">
+            <img src="obrazky/delfin.jpg" width="200">
+            <h2>Delfín</h2>
+            <p>Múdry morský cicavec, ktorý sa dorozumieva pískaním.</p>
+        </div>
+
+    </div>
+
+    <h2 id="fakty">Rýchle fakty</h2>
+
+    <ul>
+         <li>Zvieratá delíme na stavovce a bezstavovce.</li>
+    <li>Stavovce delíme na cicavce, vtáky, ryby, plazy a obojživelníky.</li>
+    <li>Cicavce kŕmia svoje mláďatá materským mliekom.</li>
+    <li>Vtáky majú telo pokryté perím.</li>
+    <li>Ryby dýchajú pomocou žiabier.</li>
+    <li>Plazy majú telo pokryté šupinami.</li>
+    <li>Obojživelníky žijú vo vode aj na súši.</li>
+    </ul>
+
+</body>
+</html>
